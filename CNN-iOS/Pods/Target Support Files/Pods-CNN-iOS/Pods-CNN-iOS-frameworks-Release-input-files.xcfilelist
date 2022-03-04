@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CNN-iOS/Pods-CNN-iOS-frameworks.sh
+${PODS_ROOT}/CNN-flutter-lib/ios_frameworks/shared_preferences_ios.framework
+${PODS_ROOT}/CNN-flutter-lib/ios_frameworks/Flutter.framework
+${PODS_ROOT}/CNN-flutter-lib/ios_frameworks/App.framework

@@ -1,3 +1,16 @@
-PODFILE CHECKSUM: 5d091d1e9cbbf712b84bccedb76203a06abeede7
+PODS:
+  - CNN-flutter-lib (0.1.1)
+
+DEPENDENCIES:
+  - CNN-flutter-lib
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CNN-flutter-lib
+
+SPEC CHECKSUMS:
+  CNN-flutter-lib: dea4f3632e50d543de77cee10882f037f874b056
+
+PODFILE CHECKSUM: b826c39850d1ede0d5de92a690bcc7b552598aa3
 
 COCOAPODS: 1.11.2

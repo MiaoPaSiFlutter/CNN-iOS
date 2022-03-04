@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-
+#import <Flutter/Flutter.h>
 @interface ViewController ()
 
 @end
@@ -18,5 +18,9 @@
     // Do any additional setup after loading the view.
 }
 
+- (IBAction)showFlutterView:(id)sender {
+    FlutterViewController *vc = [[FlutterViewController alloc] init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end
