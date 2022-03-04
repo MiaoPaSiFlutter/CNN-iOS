@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AFF6432227D1BC5D0054D100 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF6432127D1BC5D0054D100 /* AppDelegate.m */; };
+		AFF6432527D1BC5D0054D100 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF6432427D1BC5D0054D100 /* SceneDelegate.m */; };
+		AFF6432827D1BC5D0054D100 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF6432727D1BC5D0054D100 /* ViewController.m */; };
+		AFF6432B27D1BC5D0054D100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF6432927D1BC5D0054D100 /* Main.storyboard */; };
+		AFF6432D27D1BC620054D100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFF6432C27D1BC620054D100 /* Assets.xcassets */; };
+		AFF6433027D1BC620054D100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFF6432E27D1BC620054D100 /* LaunchScreen.storyboard */; };
+		AFF6433327D1BC620054D100 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AFF6433227D1BC620054D100 /* main.m */; };
+		CB01E3447A5C1FB8BF61534A /* Pods_CNN_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 979EDCEBC5848B7949358D3B /* Pods_CNN_iOS.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		578B92AD8163406A8BF5781F /* Pods-CNN-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNN-iOS.release.xcconfig"; path = "Target Support Files/Pods-CNN-iOS/Pods-CNN-iOS.release.xcconfig"; sourceTree = "<group>"; };
+		979EDCEBC5848B7949358D3B /* Pods_CNN_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNN_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF6431D27D1BC5D0054D100 /* CNN-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CNN-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFF6432027D1BC5D0054D100 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AFF6432127D1BC5D0054D100 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AFF6432327D1BC5D0054D100 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AFF6432427D1BC5D0054D100 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AFF6432627D1BC5D0054D100 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AFF6432727D1BC5D0054D100 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AFF6432A27D1BC5D0054D100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFF6432C27D1BC620054D100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFF6432F27D1BC620054D100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFF6433127D1BC620054D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF6433227D1BC620054D100 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B929B38CDE9FF8EB726097FC /* Pods-CNN-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNN-iOS.debug.xcconfig"; path = "Target Support Files/Pods-CNN-iOS/Pods-CNN-iOS.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFF6431A27D1BC5D0054D100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB01E3447A5C1FB8BF61534A /* Pods_CNN_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B0CC241B0CC716A3271E02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B929B38CDE9FF8EB726097FC /* Pods-CNN-iOS.debug.xcconfig */,
+				578B92AD8163406A8BF5781F /* Pods-CNN-iOS.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AFF6431427D1BC5D0054D100 = {
+			isa = PBXGroup;
+			children = (
+				AFF6431F27D1BC5D0054D100 /* CNN-iOS */,
+				AFF6431E27D1BC5D0054D100 /* Products */,
+				25B0CC241B0CC716A3271E02 /* Pods */,
+				EB23E2D4683FA2931B2FA50B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AFF6431E27D1BC5D0054D100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFF6431D27D1BC5D0054D100 /* CNN-iOS.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFF6431F27D1BC5D0054D100 /* CNN-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFF6432027D1BC5D0054D100 /* AppDelegate.h */,
+				AFF6432127D1BC5D0054D100 /* AppDelegate.m */,
+				AFF6432327D1BC5D0054D100 /* SceneDelegate.h */,
+				AFF6432427D1BC5D0054D100 /* SceneDelegate.m */,
+				AFF6432627D1BC5D0054D100 /* ViewController.h */,
+				AFF6432727D1BC5D0054D100 /* ViewController.m */,
+				AFF6432927D1BC5D0054D100 /* Main.storyboard */,
+				AFF6432C27D1BC620054D100 /* Assets.xcassets */,
+				AFF6432E27D1BC620054D100 /* LaunchScreen.storyboard */,
+				AFF6433127D1BC620054D100 /* Info.plist */,
+				AFF6433227D1BC620054D100 /* main.m */,
+			);
+			path = "CNN-iOS";
+			sourceTree = "<group>";
+		};
+		EB23E2D4683FA2931B2FA50B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				979EDCEBC5848B7949358D3B /* Pods_CNN_iOS.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFF6431C27D1BC5D0054D100 /* CNN-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFF6433627D1BC620054D100 /* Build configuration list for PBXNativeTarget "CNN-iOS" */;
+			buildPhases = (
+				1739F918ABF6621C3BEBE3EE /* [CP] Check Pods Manifest.lock */,
+				AFF6431927D1BC5D0054D100 /* Sources */,
+				AFF6431A27D1BC5D0054D100 /* Frameworks */,
+				AFF6431B27D1BC5D0054D100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CNN-iOS";
+			productName = "CNN-iOS";
+			productReference = AFF6431D27D1BC5D0054D100 /* CNN-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFF6431527D1BC5D0054D100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					AFF6431C27D1BC5D0054D100 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = AFF6431827D1BC5D0054D100 /* Build configuration list for PBXProject "CNN-iOS" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFF6431427D1BC5D0054D100;
+			productRefGroup = AFF6431E27D1BC5D0054D100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF6431C27D1BC5D0054D100 /* CNN-iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFF6431B27D1BC5D0054D100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF6433027D1BC620054D100 /* LaunchScreen.storyboard in Resources */,
+				AFF6432D27D1BC620054D100 /* Assets.xcassets in Resources */,
+				AFF6432B27D1BC5D0054D100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1739F918ABF6621C3BEBE3EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNN-iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFF6431927D1BC5D0054D100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFF6432827D1BC5D0054D100 /* ViewController.m in Sources */,
+				AFF6432227D1BC5D0054D100 /* AppDelegate.m in Sources */,
+				AFF6433327D1BC620054D100 /* main.m in Sources */,
+				AFF6432527D1BC5D0054D100 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AFF6432927D1BC5D0054D100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF6432A27D1BC5D0054D100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFF6432E27D1BC620054D100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFF6432F27D1BC620054D100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFF6433427D1BC620054D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AFF6433527D1BC620054D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFF6433727D1BC620054D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B929B38CDE9FF8EB726097FC /* Pods-CNN-iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM6SQ838XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CNN-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MiaoPaSi.www.CNN-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AFF6433827D1BC620054D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 578B92AD8163406A8BF5781F /* Pods-CNN-iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RM6SQ838XP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CNN-iOS/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MiaoPaSi.www.CNN-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFF6431827D1BC5D0054D100 /* Build configuration list for PBXProject "CNN-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF6433427D1BC620054D100 /* Debug */,
+				AFF6433527D1BC620054D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFF6433627D1BC620054D100 /* Build configuration list for PBXNativeTarget "CNN-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFF6433727D1BC620054D100 /* Debug */,
+				AFF6433827D1BC620054D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFF6431527D1BC5D0054D100 /* Project object */;
+}
